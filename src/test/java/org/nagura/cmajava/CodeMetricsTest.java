@@ -53,7 +53,7 @@ public class CodeMetricsTest {
         CodeMetrics.totalClasses = 0;
         CodeMetrics.totalMethodDeclarations = 0;
         CodeMetrics.totalMethodInvocations = 0;
-        CodeMetrics.totalJavadocsPerMethod = 0;
+        CodeMetrics.totalJavadocsOfMethod = 0;
         CodeMetrics.totalJavadocs = 0;
 
 

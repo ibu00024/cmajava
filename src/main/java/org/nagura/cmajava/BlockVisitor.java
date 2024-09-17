@@ -24,7 +24,7 @@ public class BlockVisitor extends ASTVisitor {
         // Parse whether javadoc exists
         Javadoc javadoc = node.getJavadoc();
         if (javadoc != null) {
-            CodeMetrics.totalJavadocsPerMethod++;
+            CodeMetrics.totalJavadocsOfMethod++;
         }
 
         return super.visit(node);

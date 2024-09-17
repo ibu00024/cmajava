@@ -22,7 +22,7 @@ public class CodeMetrics {
     static int totalClasses = 0;
     static int totalMethodDeclarations = 0;
     static int totalMethodInvocations = 0;
-    static int totalJavadocsPerMethod = 0;
+    static int totalJavadocsOfMethod = 0;
     static int totalJavadocs = 0;
 
     public static void displayCodeMetrics() {
@@ -41,7 +41,7 @@ public class CodeMetrics {
         System.out.printf("%-" + columnWidth + "s%" + columnWidth + "d\n", "Classes", totalClasses);
         System.out.printf("%-" + columnWidth + "s%" + columnWidth + "d\n", "Method Declarations", totalMethodDeclarations);
         System.out.printf("%-" + columnWidth + "s%" + columnWidth + "d\n", "Method Invocations", totalMethodInvocations);
-        System.out.printf("%-" + columnWidth + "s%" + columnWidth + "d\n", "Javadocs Per Method", totalJavadocsPerMethod);
+        System.out.printf("%-" + columnWidth + "s%" + columnWidth + "d\n", "Javadocs Of Method", totalJavadocsOfMethod);
         System.out.printf("%-" + columnWidth + "s%" + columnWidth + "d\n", "Total Javadocs", totalJavadocs);
     }
 
@@ -54,7 +54,7 @@ public class CodeMetrics {
                         totalClasses,
                         totalMethodDeclarations,
                         totalMethodInvocations,
-                        totalJavadocsPerMethod,
+                        totalJavadocsOfMethod,
                         totalJavadocs);
     }
 

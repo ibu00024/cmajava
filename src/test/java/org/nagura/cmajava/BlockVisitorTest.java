@@ -47,7 +47,7 @@ public class BlockVisitorTest {
         assertThat(CodeMetrics.totalClasses, is(2));
         assertThat(CodeMetrics.totalMethodDeclarations, is(2));
         assertThat(CodeMetrics.totalMethodInvocations, is(2));
-        assertThat(CodeMetrics.totalJavadocsPerMethod, is(1));
+        assertThat(CodeMetrics.totalJavadocsOfMethod, is(1));
         assertThat(CodeMetrics.totalJavadocs, is(1));
     }
 }
