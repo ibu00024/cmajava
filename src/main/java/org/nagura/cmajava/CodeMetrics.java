@@ -57,5 +57,12 @@ public class CodeMetrics {
                         totalJavadocsPerMethod,
                         totalJavadocs);
     }
+
+    public static void resetMetrics() {
+        totalCodeLines = 0;
+        totalCommentLines = 0;
+        totalBlankLines = 0;
+        totalFiles = 0;
+    }
     
 }
