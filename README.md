@@ -40,6 +40,6 @@ Code Lines                          1704    // Number of code lines
 Classes                               20    // Number of classes
 Method Declarations                  229    // Number of method declarations
 Method Invocations                   527    // Number of method invocations
-Javadocs Of Method                    79    // Number of Javadocs per method
-All Javadocs                          94    // Total number of Javadocs
+Javadocs Of Method                    79    // Number of Javadocs of methods
+All Javadocs                          94    // Number of Javadocs
 ```
