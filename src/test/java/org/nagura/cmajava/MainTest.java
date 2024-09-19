@@ -20,8 +20,8 @@ public class MainTest {
     @BeforeEach
     public void setUp() throws Exception {
         tempDir = Files.createTempDirectory("testDir");
-        Files.createFile(tempDir.resolve("TestFile1.java"));
-        Files.createFile(tempDir.resolve("TestFile2.java"));
+        Files.createFile(tempDir.resolve("TestFile1.java").toAbsolutePath());
+        Files.createFile(tempDir.resolve("TestFile2.java").toAbsolutePath());
     }
 
     @Test

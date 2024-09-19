@@ -23,13 +23,13 @@ public class FileFinderTest {
     public void setUp() throws IOException {
         tempDir = Files.createTempDirectory("testDir");
 
-        Files.createFile(tempDir.resolve("TestFile1.java"));
-        Files.createFile(tempDir.resolve("TestFile2.txt"));
-        Files.createFile(tempDir.resolve("TestFile3.java"));
+        Files.createFile(tempDir.resolve("TestFile1.java").toAbsolutePath());
+        Files.createFile(tempDir.resolve("TestFile2.txt").toAbsolutePath());
+        Files.createFile(tempDir.resolve("TestFile3.java").toAbsolutePath());
 
         Path subDir = Files.createDirectory(tempDir.resolve("subDir"));
-        Files.createFile(subDir.resolve("SubTestFile.java"));
-        Files.createFile(subDir.resolve("SubTestFile.txt"));
+        Files.createFile(subDir.resolve("SubTestFile.java").toAbsolutePath());
+        Files.createFile(subDir.resolve("SubTestFile.txt").toAbsolutePath());
     }
 
     @Test
