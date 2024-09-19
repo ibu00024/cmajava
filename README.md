@@ -41,5 +41,5 @@ Classes                               20    // Number of classes
 Method Declarations                  229    // Number of method declarations
 Method Invocations                   527    // Number of method invocations
 Javadocs Of Method                   79    // Number of Javadocs per method
-Total Javadocs                        94    // Total number of Javadocs
+All Javadocs                        94    // Total number of Javadocs
 ```

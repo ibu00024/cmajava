@@ -42,7 +42,7 @@ public class CodeMetrics {
         System.out.printf("%-" + columnWidth + "s%" + columnWidth + "d\n", "Method Declarations", totalMethodDeclarations);
         System.out.printf("%-" + columnWidth + "s%" + columnWidth + "d\n", "Method Invocations", totalMethodInvocations);
         System.out.printf("%-" + columnWidth + "s%" + columnWidth + "d\n", "Javadocs Of Method", totalJavadocsOfMethod);
-        System.out.printf("%-" + columnWidth + "s%" + columnWidth + "d\n", "Total Javadocs", totalJavadocs);
+        System.out.printf("%-" + columnWidth + "s%" + columnWidth + "d\n", "All Javadocs", totalJavadocs);
     }
 
     public static void displayCodeMetricsCSV() {
