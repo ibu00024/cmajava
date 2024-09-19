@@ -27,5 +27,7 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
+    - name: Create temp directory for tests
+      run: mkdir -p /tmp/testDir        
     - name: Build with Maven
       run: mvn -B package --file pom.xml
