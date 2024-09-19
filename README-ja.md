@@ -40,6 +40,6 @@ Code Lines                          1704    // コード行数
 Classes                               20    // クラス数
 Method Declarations                  229    // メソッド宣言数
 Method Invocations                   527    // メソッド呼び出し数
-Javadocs Of Method                   79     // メソッドの Javadoc 数
-All Javadocs                        94    // 総 Javadoc 数
+Javadocs Of Method                    79    // メソッドの Javadoc 数
+All Javadocs                          94    // Javadoc 数
 ```
